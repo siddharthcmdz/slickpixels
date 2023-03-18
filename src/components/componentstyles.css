@@ -1,0 +1,34 @@
+.spheader {
+    background-color: lightblue;
+}
+
+.spbody {
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: row;
+}
+
+.spsidebar {
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    flex: 0.1;
+    display: flex;
+    flex-direction: column;
+}
+
+.spsidebaritem {
+    
+}
+
+.spcontent {
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    display: inherit;
+}
+
+.spfooter {
+    background-color: lightgray;
+}
+
