@@ -1,20 +1,30 @@
 .spheader {
-    background-color: lightblue;
+    background-color: #EAEAEA;
+    border-radius: 13px;
+    height: 120px ;
+    /* flex: auto; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 7px;
+    
 }
 
 .spbody {
     display: flex;
-    background-color: antiquewhite;
     flex-direction: row;
+    flex: 5;
 }
 
 .spsidebar {
-    background-color: aliceblue;
-    justify-content: center;
-    align-items: center;
-    flex: 0.1;
+    border-radius: 13px;
+    background-color: #EAEAEA;
+    /* justify-content: center; */
+    align-items: start;
     display: flex;
     flex-direction: column;
+    margin: 7px;
+    width: 20%
 }
 
 .spsidebaritem {
@@ -22,13 +32,17 @@
 }
 
 .spcontent {
-    background-color: beige;
+    background-color: #EAEAEA;
     justify-content: center;
     align-items: center;
-    display: inherit;
+    border-radius: 13px;
+    display: flex;
+    width: 100%;
+    margin: 7px;
 }
 
 .spfooter {
     background-color: lightgray;
+    height: 100px
 }
 
