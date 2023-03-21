@@ -2,9 +2,11 @@ import React from "react";
 const SpSideBar = (props) => {
     return (
         <div className="spsidebar">
-            {
-                props.children
-            }
+            <ul>
+                {
+                    props.children
+                }
+            </ul>
         </div>
     )
 }
