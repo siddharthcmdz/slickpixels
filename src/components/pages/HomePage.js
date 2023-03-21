@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SpHomePage = () => {
+const HomePage = () => {
     return (
         <div>Welcome to my homepage!</div>
     )
 }
 
-export default SpHomePage
+export default HomePage

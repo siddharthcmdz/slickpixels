@@ -4,23 +4,26 @@ import "./componentstyles.css"
 import SpSideBar from "./SpSideBar";
 import SpContent from "./SpContent";
 import SpSidebarItem from "./SpSidebarItem";
+import AboutMe from "./pages/AboutMe";
+import Blog from "./pages/Blog";
+import WorkExperience from "./pages/WorkExperience";
+import ContactMe from "./pages/ContactMe";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Hobbies from "./pages/Hobbies";
 
 const SpBody = () => {
-    const sidebarItems = [
-        'About me',
-        'Work Experiences',
-        'Hobbies',
-        'Blog',
-        'Contact me'
-    ]
     return (
         <div className="spbody">
-            <SpSideBar>
-                {
-                    sidebarItems.map((elem) => <SpSidebarItem name={elem} />)
-                }
-            </SpSideBar>
-            <SpContent></SpContent>
+            <SpSideBar />
+            <Routes>
+                <Route path="/Home" element={<HomePage />} />
+                <Route path="/About me" element={<AboutMe />} />
+                <Route path="/Work Experiences" element={<WorkExperience />} />
+                <Route path="/Hobbies" element={<Hobbies />} />
+                <Route path="/Blog" element={<Blog />} />
+                <Route path="/Contact me" element={<ContactMe />} />
+            </Routes>
         </div>
     )
 }

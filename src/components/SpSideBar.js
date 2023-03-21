@@ -1,12 +1,23 @@
 import React from "react";
+import SpSidebarItem from "./SpSidebarItem";
+
 const SpSideBar = (props) => {
+    const sidebarItems = [
+        'Home',
+        'About me',
+        'Work Experiences',
+        'Hobbies',
+        'Blog',
+        'Contact me'
+    ]
+
     return (
         <div className="spsidebar">
-            <ul>
+            <nav>
                 {
-                    props.children
+                    sidebarItems.map((elem) => <SpSidebarItem to={elem}>{elem}</SpSidebarItem>)
                 }
-            </ul>
+            </nav>
         </div>
     )
 }

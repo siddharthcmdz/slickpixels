@@ -1,14 +1,16 @@
 import React from "react"
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
-
-const SpSidebarItem = (props) => {
+const SpSidebarItem = ({ to, children, ...props }) => {
+    const resolvedPath = useResolvedPath(to)
+    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+    const path = window.location.pathname
+    console.log(path)
     return (
-        <div className="spsidebaritem">
-            <li>
-                <a href={props.name}>
-                    {props.name}
-                </a>
-            </li>
+        <div className={path === to ? "active-spsidebaritem" : "spsidebaritem"}>
+            <Link to={to} {...props}>
+                {children}
+            </Link>
         </div>
     )
 }
