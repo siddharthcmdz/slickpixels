@@ -7,7 +7,7 @@ const SpSidebarItem = ({ to, children, ...props }) => {
     const path = window.location.pathname
     console.log(path)
     return (
-        <div className={path === to ? "active-spsidebaritem" : "spsidebaritem"}>
+        <div className={isActive ? "active-spsidebaritem" : "spsidebaritem"}>
             <Link to={to} {...props}>
                 {children}
             </Link>
