@@ -10,7 +10,8 @@ const SpBody = () => {
         'About me',
         'Work Experiences',
         'Hobbies',
-        'References'
+        'Blog',
+        'Contact me'
     ]
     return (
         <div className="spbody">

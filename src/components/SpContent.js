@@ -1,9 +1,9 @@
 import React from "react"
-
+import AboutMe from "./pages/AboutMe"
 const SpContent = () => {
     return (
         <div className="spcontent">
-            <h1>Some content</h1>
+            <AboutMe />
         </div>
     )
 }

@@ -4,7 +4,6 @@ const SpSideBar = (props) => {
         <div className="spsidebar">
             {
                 props.children
-                // sidebarItems.map((elem) => <SpSidebarItem name={elem} />)
             }
         </div>
     )
