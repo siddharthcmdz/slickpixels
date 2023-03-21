@@ -42,7 +42,12 @@
 }
 
 .spfooter {
-    background-color: lightgray;
-    height: 100px
+    background-color: #EAEAEA;
+    height: 100px;
+    border-radius: 13px;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
