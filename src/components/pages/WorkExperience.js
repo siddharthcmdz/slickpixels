@@ -133,7 +133,7 @@ const getWorkExperience = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        SOLIDWORKS is a world renowned software and company in design and manufacture industry. With over 6 million users, the software is used in a over 80,000 companies including aerospace, medical device manufacturing, embedded system chipsets and circuitry etc. I was responsible for building a modern renderer based on modern OpenGL and managing 3D rendering and visualization for a portfolio of products.
+                        <b>SOLIDWORKS</b> is a world renowned software and company in design and manufacture industry. With over 6 million users, the software is used in a over 80,000 companies including aerospace, medical device manufacturing, embedded system chipsets and circuitry etc. I was responsible for building a modern renderer based on modern OpenGL and managing 3D rendering and visualization for a portfolio of products.
                     </Typography>
 
                     <Accordion>
@@ -142,7 +142,7 @@ const getWorkExperience = () => {
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography>
-                                <ul><b>RenderSystem</b>
+                                <ul><b>SOLIDWORKS rendering engine</b>
                                     <li>I lead a team of seven implementing a new rendering engine that I conceived,  that is data centric and GPU driven and operates in retained mode of rendering. This improved performance by 500% at a minimum.
                                     </li>
                                     <li>Implemented GPU based occlusion culling using a technique called temporal coherence that enabled rendering only visible mesh exactly once per frame. This dramatically improved performance especially since CAD products have a lot of geometry mesh data.</li>
@@ -202,12 +202,60 @@ const getWorkExperience = () => {
                             <tr>Head of Graphics Engineering</tr>
                         </table>
                     </Typography>
-                    <AccordionDetails>
-                        <Typography>
-
-                        </Typography>
-                    </AccordionDetails>
                 </AccordionSummary>
+                <AccordionDetails>
+                    <Typography>
+                        <p>
+                            IKEA Geomagical Labs is forefront in the industry of home furnishing business, enabling customers to decorate their personal space with IKEA furniture. This is e-commerce solution is brought to masses by combining bleeding edge technologies in computer vision, machine learning, cloud computing and 3D rendering.
+                        </p>
+                    </Typography>
+
+                    <Accordion>
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
+                            <Typography>
+                                <b>Leadership excellence</b>
+                            </Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            <ul>
+                                <li>Launched IKEA Kreativ <a href="https://www.ikea.com/us/en/home-design/">https://www.ikea.com/us/en/home-design/</a>, a mixed reality indoor
+                                    personalization of home furnishing in multiple markets including US, UK and Canada with daily active
+                                    users of more than 2 million.</li>
+
+                                <li>
+                                    Conceived and drove cross functional collaboration between platform, design, product and ML teams
+                                    towards architectural unification strategies accelerating delivery and efficiency of our product.
+                                </li>
+                                <li>
+                                    Headed and grew multiple teams responsible for back-end processing of 3D commerce compliant assets
+                                    and AR based viewer technology for multiple platforms in both USA and globally
+                                </li>
+                                <li>Built and managed technical and business strategies towards releasing IKEA Kreativ in the fast-moving
+                                    mixed reality marketplace</li>
+                                <li>Managed roadmaps, priorities and sprint plans in an agile manner</li>
+                                <li>Engineered and drove realism employing physically based rendering techniques improving customer
+                                    satisfaction</li>
+                            </ul>
+                        </AccordionDetails>
+                    </Accordion>
+
+                    <Accordion>
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
+                            <Typography>
+                                <b>Technical skills</b>
+                            </Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            <ul>
+                                <li>Hands on experience with Javascript, Typescript, ThreeJS, React, Material UI and Python</li>
+                                <li>IDE and tools used were VScode, Docker, GCP, Github, SpectorJS
+                                    3D packages used were Blender and 3D studio max</li>
+                                <li>Experience with team management and communication tools like JIRA\JQL, Confluence and Figma</li>
+                                <li>Experience with analytical tools like DOMO, Mixpanel, Google Spreadsheet APIs</li>
+                            </ul>
+                        </AccordionDetails>
+                    </Accordion>
+                </AccordionDetails>
             </Accordion>
 
         </div>
