@@ -1,6 +1,4 @@
-import { Accordion, AccordionDetails, AccordionSummary, ListItem, Typography } from '@mui/material'
-import List from '@mui/material/List';
-import ListItemText from '@mui/material/ListItemText';
+import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import React from 'react'
 
@@ -9,9 +7,9 @@ const getWorkExperience = () => {
         <div className="workexp">
             <h2 id="workexp_header">Work Experience</h2>
 
-            <Accordion>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-content">
-                    <Typography >
+            <Accordion >
+                <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
+                    <Typography>
                         <table>
                             <tr><b>Halliburton - Landmark Graphics Corporation</b></tr>
                             <tr>(2008-2014)</tr>
@@ -32,7 +30,7 @@ const getWorkExperience = () => {
                     </Typography>
 
                     <Accordion>
-                        <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-content">
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
                             <Typography>
                                 <b>Features engineered</b>
                             </Typography>
@@ -83,7 +81,7 @@ const getWorkExperience = () => {
                     </Accordion>
 
                     <Accordion>
-                        <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-content">
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
                             <Typography>
                                 <b>Leadership excellence</b>
                             </Typography>
@@ -102,7 +100,7 @@ const getWorkExperience = () => {
                     </Accordion>
 
                     <Accordion>
-                        <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-content">
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
                             <Typography>
                                 <b>Technical skills</b>
                             </Typography>
@@ -124,7 +122,7 @@ const getWorkExperience = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-content">
+                <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
                     <Typography>
                         <table>
                             <tr><b>Dassault Systemes - SOLIDWORKS</b></tr>
@@ -139,7 +137,7 @@ const getWorkExperience = () => {
                     </Typography>
 
                     <Accordion>
-                        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
                             <Typography><b>Features engineered</b></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -158,7 +156,7 @@ const getWorkExperience = () => {
                     </Accordion>
 
                     <Accordion>
-                        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
                             <Typography><b>Leadership  excellence</b></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -177,7 +175,7 @@ const getWorkExperience = () => {
                     </Accordion>
 
                     <Accordion>
-                        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
                             <Typography><b>Technical skills</b></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -196,7 +194,7 @@ const getWorkExperience = () => {
             </Accordion>
 
             <Accordion>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-content">
+                <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
                     <Typography>
                         <table>
                             <tr><b>IKEA - Geomagical Labs</b></tr>
