@@ -2,8 +2,6 @@ import React from "react";
 import "./componentstyles.css"
 
 import SpSideBar from "./SpSideBar";
-import SpContent from "./SpContent";
-import SpSidebarItem from "./SpSidebarItem";
 import AboutMe from "./pages/AboutMe";
 import Blog from "./pages/Blog";
 import WorkExperience from "./pages/WorkExperience";
