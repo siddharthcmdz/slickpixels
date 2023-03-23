@@ -2,3 +2,16 @@
 .sptext  {
     text-align: start;
 }
+
+.workexp {
+    width: 100%;
+    margin: 7px;
+}
+
+#workexp_header {
+    color: gray;
+}
+
+.we_accordion {
+    background-color: gray;
+}
