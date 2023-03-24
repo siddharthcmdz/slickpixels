@@ -1,5 +1,11 @@
 import React from 'react'
 import headshot from './img/headshot.jpeg'
+import galimg1 from './img/aboutmeimg1.png'
+import galimg2 from './img/aboutmeimg2.png'
+import galimg3 from './img/aboutmeimg3.png'
+import galimg4 from './img/aboutmeimg4.png'
+import galimg5 from './img/aboutmeimg5.png'
+import galimg6 from './img/aboutmeimg6.png'
 import './pagestyles.css'
 
 const getAboutMe = () => {
@@ -24,8 +30,39 @@ const getAboutMe = () => {
                 But this paved way for my thirst in computer graphics and when I was in high school, I got my hands on modelling, animation and texturing using 3ds max and photoshop. Back then, access to internet was expensive and it was a luxury. Most of my knowledge were from software manuals and training material. I soon started creating short animation reels and created a local rendering farm at my friend’s cyber café. This helped me understand a lot of concepts in 3D computer graphics.
             </p>
             <p>
-                You can find some of my artwork here and they are just some experimentations that I did combining one or more 3D packages and combining the clips with Adobe premiere and after effects.
+                You can find some of my artwork here and they are just some experimentations that I did combining one or more 3D packages and combining the clips with Adobe premiere and after effects. These are not perfect by any means but they were created in an era where it would take days to render a clip which can easily be rendered in realtime these days.
             </p>
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <img src={galimg1} alt="gallery 1" width="200px" />
+                        </td>
+                        <td><a href="https://youtu.be/erT8NbpkjJw" target="_blank" rel="noopener noreferrer">
+                            <img src={galimg2} alt="gallery 2" width="200px" />
+                        </a>
+                        </td>
+                        <td>
+                            <a href="https://youtu.be/53bpbhZNEvQ" target="_blank" rel="noopener noreferrer">
+                                <img src={galimg3} alt="gallery 3" width="200px" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src={galimg4} alt="gallery 4" width="200px" /></td>
+                        <td>
+                            <a href="https://youtu.be/d3E1st8lNcU" target="_blank" rel="noopener noreferrer">
+                                <img src={galimg5} alt="gallery 5" width="200px" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://youtu.be/_ihxopTLNNY" target="_blank" rel="noopener noreferrer">
+                                <img src={galimg6} alt="gallery 6" width="200px" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
             <p>
                 Soon my interest  in using 3D packages diverted to actually implementing tools that produced these awesome graphics rather than using them. That was when I first got into C++ and OpenGL 2.1.
