@@ -15,3 +15,15 @@
 .we_accordion {
     background-color: gray;
 }
+
+#imgcenter {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#imgrow {
+    display: flex;
+    flex-direction: row;
+    margin: 13px;
+}

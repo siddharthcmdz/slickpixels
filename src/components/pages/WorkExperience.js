@@ -1,6 +1,14 @@
 import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import React from 'react'
+import dsd from './img/dsd.jpg'
+import swx19 from './img/swx2019.jpg'
+import edxvr from './img/edxVR.jpg'
+import gml1 from './img/gml1.png'
+import gml2 from './img/gml2.png'
+import gml3 from './img/gml3.png'
+import gml4 from './img/gml4.png'
+import './pagestyles.css'
 
 const getWorkExperience = () => {
     return (
@@ -23,7 +31,9 @@ const getWorkExperience = () => {
                         <p>
                             <b>Landmark Graphics Corporation</b> specialized in Oil & gas applications to assist geophysicists to analyze and interpret large volumetric data (gigabytes to terabytes in size). These included seismic, horizons, faults, GIS and well-data. The product I worked on was called DecisionSpace Desktop (precursor to <a href="https://www.landmark.solutions/ds365">DecisionSpace 365</a>).
                         </p>
-                        {/* <img src="/pages/dsd.jpg" /> */}
+                        <div id="imgcenter">
+                            <img alt="decisionspace desktop" src={dsd} width="400px" />
+                        </div>
                         <p>
                             Prior to using our software solution, geophysicists used paper and pen to analyze compositions of earth crust to maximize possibility of hitting oil. The decisions made by the scientists have huge cost risks towards drilling operations. So accuracy and efficiency of rendering large volumetric data for users interpretation is of utmost importance.
                         </p>
@@ -134,6 +144,10 @@ const getWorkExperience = () => {
                 <AccordionDetails>
                     <Typography>
                         <b>SOLIDWORKS</b> is a world renowned software and company in design and manufacture industry. With over 6 million users, the software is used in a over 80,000 companies including aerospace, medical device manufacturing, embedded system chipsets and circuitry etc. I was responsible for building a modern renderer based on modern OpenGL and managing 3D rendering and visualization for a portfolio of products.
+                        <div id="imgrow">
+                            <img src={swx19} alt="Solidworks 2019" width="400px" />
+                            <img src={edxvr} alt="eDrawings VR 2019" width="400px" />
+                        </div>
                     </Typography>
 
                     <Accordion>
@@ -209,6 +223,12 @@ const getWorkExperience = () => {
                             IKEA Geomagical Labs is forefront in the industry of home furnishing business, enabling customers to decorate their personal space with IKEA furniture. This is e-commerce solution is brought to masses by combining bleeding edge technologies in computer vision, machine learning, cloud computing and 3D rendering.
                         </p>
                     </Typography>
+                    <div id="imgrow">
+                        <img src={gml1} alt="ikea akreativ office1" width="200px" />
+                        <img src={gml2} alt="ikea akreativ office2" width="200px" />
+                        <img src={gml3} alt="ikea akreativ livingroom" width="200px" />
+                        <img src={gml4} alt="ikea akreativ bedroom" width="200px" />
+                    </div>
 
                     <Accordion>
                         <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ backgroundColor: "#EAEAEA" }}>
