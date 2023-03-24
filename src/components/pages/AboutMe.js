@@ -1,14 +1,19 @@
 import React from 'react'
+import headshot from './img/headshot.jpeg'
+import './pagestyles.css'
 
 const getAboutMe = () => {
     return (
         <div>
-            Hello!
-            <br />
-            <p>
-                Thank you for visiting my site! My name is Siddharth Palaniappan and I hope you have a fun time exploring my site. I’ve created this site to journal my experiences and hobbies that might be useful for folks with similar interests. If you have some suggestions on improving this site, please feel free to contact me!
-                <br />
-            </p>
+            <div id="headshot">
+                <img src={headshot} alt="headshot" width="200px" />
+                <p>
+                    <br />
+                    Hello!
+                    <br /> <br />
+                    Thank you for visiting my site! My name is Siddharth Palaniappan and I hope you have a fun time exploring my site. I’ve created this site to journal my experiences and hobbies that might be useful for folks with similar interests. If you have some suggestions on improving this site, please feel free to contact me!
+                </p>
+            </div>
             <p>
                 My journey into 3D computer graphics began at a very young age. I remember first learning DOS to play games on my 486DX2 PC. One game in particular that  proved to defined my future was a game called “Prince of persia’. This is a 2D side scroller game that was conceptualized and created developed by a programmer named Jordan Mechner. He  used a technique called “Rotoscoping” by tracing his younger brothers movements from video capture. This is the first time I had seen such realism in animation.
             </p>

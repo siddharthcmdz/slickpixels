@@ -27,3 +27,8 @@
     flex-direction: row;
     margin: 13px;
 }
+
+#headshot {
+    display: flex;
+    flex-direction: row;
+}
