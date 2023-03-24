@@ -4,7 +4,7 @@ import { faYoutube, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-
 
 const SpFooter = () => {
     return (
-        <div className="spfooter">
+        <div className="spfooter" key="spfooter">
             <a href="https://www.youtube.com/channel/UCRCdAP4boepyS5Y7i3uKY1Q"
                 className="youtube social">
                 <FontAwesomeIcon icon={faYoutube} size="2x" />

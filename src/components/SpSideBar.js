@@ -5,14 +5,14 @@ const SpSideBar = (props) => {
     const sidebarItems = [
         'Home',
         'About me',
-        'Work Experiences',
+        'Work Experience',
         'Hobbies',
         'Blog',
         'Contact me'
     ]
 
     return (
-        <div className="spsidebar">
+        <div className="spsidebar" key="spsidebar">
             <nav>
                 {
                     sidebarItems.map((elem) => <SpSidebarItem to={elem}>{elem}</SpSidebarItem>)

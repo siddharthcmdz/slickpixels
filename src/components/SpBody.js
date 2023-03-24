@@ -18,7 +18,7 @@ const SpBody = () => {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/Home" element={<HomePage />} />
                 <Route path="/About me" element={<AboutMe />} />
-                <Route path="/Work Experiences" element={<WorkExperience />} />
+                <Route path="/Work Experience" element={<WorkExperience />} />
                 <Route path="/Hobbies" element={<Hobbies />} />
                 <Route path="/Blog" element={<Blog />} />
                 <Route path="/Contact me" element={<ContactMe />} />

@@ -2,7 +2,7 @@ import React from "react";
 
 const SpHeader = () => {
   return (
-    <div className="spheader">
+    <div className="spheader" key="spheader">
       <h1>Welcome to SlickPixels!</h1>
     </div>
   );
