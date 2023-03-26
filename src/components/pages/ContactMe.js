@@ -1,8 +1,21 @@
 import React from 'react'
+import ContactForm from './ContactForm'
+import './pagestyles.css'
+
+const getContactForm = () => {
+   return (
+    <div className="contactform">
+        
+    </div>
+   ) 
+}
+
 
 const ContactMe = () => {
     return (
-        <div><h1>Under construction</h1></div>
+        <div className="contactform">
+            <ContactForm />
+        </div>
     )
 }
 

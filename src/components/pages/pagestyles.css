@@ -1,5 +1,4 @@
-
-.sptext  {
+.sptext {
     text-align: start;
 }
 
@@ -31,4 +30,11 @@
 #headshot {
     display: flex;
     flex-direction: row;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 50px
 }
