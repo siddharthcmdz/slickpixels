@@ -32,3 +32,40 @@
     display: flex;
     flex-direction: row;
 }
+
+.container {
+    padding: 15px;
+  }
+  
+  ul.phimages {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.phimages > li {
+    position: relative;
+    padding-top: 66%;
+  }
+  
+  ul.phimages > li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 567px) {
+    ul.phimages {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+  
