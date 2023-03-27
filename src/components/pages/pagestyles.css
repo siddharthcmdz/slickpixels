@@ -44,7 +44,6 @@
   
   ul.phimages {
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     grid-template-columns: 200px 200px 200px 200px 200px;
     grid-gap: 15px;
     list-style: none;
